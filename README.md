@@ -21,7 +21,7 @@ Contains `Stock` and `Global` data. These unstructured data are extracted from i
 | ----- | ---- |
 | Apple | 2289 |
 | Meta  | 2465 |
-| Tsla  | 1776 |
+| Tesla | 1776 |
 
 ### Global
 
