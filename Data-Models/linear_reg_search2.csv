@@ -1,0 +1,721 @@
+tickers_to_predict,sentiment_filepath,window,lookback,thresh,intercept,Sharpe_ratio
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.0,True,2.943
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.0,False,2.9
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.0,False,2.866
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.0,True,2.774
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.0,False,2.554
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.0,True,2.546
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.0,True,2.535
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.0,False,2.521
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,0.75,True,2.261
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,0.75,True,2.26
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,0.75,True,2.25
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,0.75,False,2.23
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,0.75,False,2.229
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,0.75,True,2.071
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,0.75,False,2.023
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,0.75,False,1.951
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,0.75,False,1.881
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,0.75,True,1.876
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,0.75,False,1.849
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,0.75,True,1.795
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,0.75,False,1.765
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,0.75,False,1.754
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,0.75,True,1.721
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.0,True,1.691
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,0.75,False,1.642
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.0,False,1.642
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.0,False,1.641
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.0,True,1.605
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,0.75,True,1.605
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,0.75,True,1.605
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,0.75,False,1.59
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,0.75,True,1.575
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,0.75,True,1.57
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.0,False,1.562
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.0,True,1.558
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.0,False,1.544
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.0,True,1.539
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,0.75,False,1.514
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.0,False,1.467
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.0,True,1.463
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,0.75,True,1.455
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,0.75,True,1.452
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.0,False,1.42
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.0,False,1.42
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.0,True,1.383
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.0,True,1.383
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,0.75,False,1.374
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.0,False,1.331
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.0,False,1.326
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,0.75,False,1.326
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.0,False,1.326
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.0,False,1.326
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.0,True,1.324
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.0,True,1.31
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.0,True,1.31
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.0,True,1.31
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,0.75,True,1.31
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.5,False,1.269
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.5,False,1.269
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,0.75,True,1.247
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,0.75,False,1.246
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,0.75,False,1.245
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.5,True,1.232
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.5,True,1.232
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.5,False,1.207
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.5,False,1.207
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.5,True,1.191
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.5,True,1.191
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,0.75,True,1.155
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.0,True,1.141
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.0,False,1.129
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,0.75,False,1.126
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,0.75,False,1.116
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.0,False,1.115
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.0,True,1.114
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.0,True,1.099
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,0.75,False,1.082
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,0.75,True,1.079
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,0.75,True,1.063
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,0.75,False,1.06
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.0,False,1.058
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.5,False,1.036
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.5,True,1.03
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.0,False,0.991
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.0,True,0.977
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,2.0,False,0.941
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.0,True,0.941
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,2.0,False,0.941
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.5,False,0.941
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,2.0,False,0.941
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.0,False,0.934
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.5,True,0.904
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,2.0,True,0.904
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.5,False,0.904
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.5,False,0.904
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,2.0,True,0.904
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,2.0,True,0.904
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.5,True,0.898
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.5,True,0.898
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.0,False,0.878
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.5,True,0.864
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.5,True,0.864
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.0,True,0.859
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.5,False,0.857
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.5,False,0.857
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.5,False,0.853
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,2.0,False,0.853
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,2.0,False,0.853
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,2.0,False,0.853
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,0.75,True,0.83
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,0.75,False,0.829
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,2.0,True,0.808
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,2.0,True,0.808
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,2.0,True,0.808
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.5,True,0.808
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,0.75,True,0.796
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,2.0,True,0.767
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,2.0,True,0.767
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.5,True,0.767
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.0,True,0.767
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,2.0,True,0.767
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.5,True,0.767
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.5,True,0.767
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,2.0,False,0.759
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.5,False,0.759
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,2.0,False,0.759
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,2.0,False,0.759
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,2.0,True,0.756
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,2.0,True,0.756
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.5,True,0.756
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,2.0,True,0.756
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.0,False,0.753
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,2.0,True,0.751
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,2.0,True,0.751
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.5,True,0.751
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.5,True,0.751
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.0,True,0.751
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,2.0,True,0.751
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.5,True,0.751
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,0.75,False,0.747
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,0.75,True,0.741
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.0,True,0.729
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,0.75,True,0.724
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,0.75,False,0.721
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,0.75,True,0.718
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.5,False,0.714
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,2.0,False,0.714
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.5,False,0.714
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.5,False,0.714
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,2.0,False,0.714
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.0,False,0.714
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,2.0,False,0.714
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,0.75,True,0.698
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,2.0,False,0.695
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,2.0,False,0.695
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,2.0,False,0.695
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.5,False,0.694
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.0,False,0.694
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,2.0,False,0.694
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.5,False,0.694
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,2.0,False,0.694
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.5,False,0.694
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,2.0,False,0.694
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,2.0,True,0.685
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,2.0,True,0.685
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,2.0,True,0.685
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,0.75,False,0.679
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,0.75,False,0.667
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.5,False,0.659
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.5,True,0.647
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.5,False,0.643
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.5,True,0.627
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.0,False,0.624
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.0,True,0.583
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.5,False,0.581
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.5,True,0.569
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,0.75,True,0.562
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,0.75,True,0.549
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,0.75,True,0.545
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.5,False,0.531
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,0.75,False,0.529
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.5,True,0.521
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,0.75,True,0.517
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.0,True,0.496
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,2.0,False,0.472
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,2.0,False,0.472
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,2.0,False,0.472
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.0,False,0.466
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.0,False,0.466
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.0,False,0.466
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,0.75,False,0.466
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,0.75,False,0.466
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,0.75,False,0.466
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.0,True,0.463
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,0.75,True,0.462
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,2.0,True,0.459
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,2.0,True,0.459
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,2.0,True,0.459
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.0,True,0.454
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,0.75,True,0.454
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,0.75,True,0.454
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.0,True,0.454
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.0,True,0.454
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,0.75,True,0.454
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,2.0,False,0.451
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,2.0,False,0.451
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,2.0,False,0.451
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.0,False,0.442
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.0,False,0.435
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,45,2.0,True,0.431
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,30,2.0,True,0.431
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,120,15,2.0,True,0.431
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,0.75,False,0.405
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,0.75,False,0.399
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,0.75,False,0.399
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,15,0.75,True,0.391
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.5,False,0.36
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.5,False,0.36
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.0,True,0.354
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.0,True,0.354
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,0.75,True,0.354
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,0.75,True,0.354
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,0.75,True,0.354
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.0,True,0.354
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.5,True,0.348
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.5,True,0.348
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.0,False,0.341
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,0.75,False,0.341
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.0,False,0.341
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,0.75,False,0.341
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,0.75,False,0.341
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.0,False,0.341
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,0.75,True,0.314
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.0,True,0.299
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.0,True,0.271
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.0,True,0.271
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.0,False,0.26
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.0,False,0.257
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.0,False,0.257
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.0,True,0.237
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.0,True,0.237
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,0.75,False,0.2
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,0.75,False,0.199
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.0,False,0.195
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.0,False,0.195
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.0,True,0.174
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,0.75,False,0.162
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,0.75,False,0.161
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.0,True,0.157
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,0.75,True,0.139
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.0,False,0.136
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.0,True,0.134
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.0,True,0.131
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,0.75,True,0.122
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.0,False,0.112
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.0,False,0.065
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.0,False,0.054
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,0.75,False,0.053
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.0,True,0.027
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.0,True,0.023
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,0.75,False,0.01
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.0,True,-0.008
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.0,False,-0.03
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.5,True,-0.038
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.5,True,-0.038
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,2.0,True,-0.038
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,2.0,True,-0.038
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.5,True,-0.038
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,2.0,True,-0.038
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,0.75,True,-0.044
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.0,True,-0.045
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.5,True,-0.045
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,2.0,False,-0.052
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,1.5,False,-0.052
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,1.5,False,-0.052
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,1.5,False,-0.052
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,2.0,False,-0.052
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,2.0,False,-0.052
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,0.75,False,-0.061
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,0.75,True,-0.081
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.5,True,-0.09
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.5,True,-0.09
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,2.0,True,-0.09
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,2.0,True,-0.09
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,2.0,True,-0.09
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.5,True,-0.09
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,0.75,False,-0.106
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.0,False,-0.106
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.5,False,-0.111
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.0,False,-0.111
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,1.5,False,-0.129
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,2.0,False,-0.129
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,1.5,False,-0.129
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,1.5,False,-0.129
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,2.0,False,-0.129
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,2.0,False,-0.129
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,0.75,True,-0.154
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.5,True,-0.168
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.5,True,-0.168
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.0,True,-0.168
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.0,True,-0.17
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.5,False,-0.187
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.5,True,-0.189
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.0,True,-0.195
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.5,False,-0.197
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.0,False,-0.197
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.0,False,-0.207
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,2.0,True,-0.219
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.5,True,-0.219
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,2.0,True,-0.219
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.5,True,-0.219
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,2.0,True,-0.219
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.0,False,-0.231
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,0.75,True,-0.237
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.0,False,-0.25
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.0,True,-0.257
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.0,False,-0.278
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.5,False,-0.297
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.5,False,-0.298
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,2.0,False,-0.298
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.5,False,-0.298
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.5,True,-0.298
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,2.0,False,-0.298
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,2.0,False,-0.298
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.0,False,-0.304
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,0.75,True,-0.328
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,2.0,True,-0.336
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,2.0,True,-0.336
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,2.0,True,-0.336
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.5,True,-0.336
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.0,True,-0.353
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,0.75,True,-0.355
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,2.0,False,-0.371
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.5,False,-0.371
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.0,True,-0.371
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,2.0,False,-0.371
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.5,False,-0.371
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,2.0,False,-0.371
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.5,False,-0.392
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.5,False,-0.392
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,0.75,False,-0.394
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.5,True,-0.397
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.5,True,-0.397
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.5,True,-0.405
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.5,True,-0.408
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.5,True,-0.417
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.0,True,-0.42
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.0,True,-0.427
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.0,True,-0.427
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.0,False,-0.433
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,0.75,True,-0.436
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,0.75,True,-0.439
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,0.75,True,-0.439
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,0.75,True,-0.439
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,0.75,True,-0.442
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.0,False,-0.459
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.0,False,-0.464
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,0.75,False,-0.469
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,30,0.75,False,-0.47
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,45,0.75,False,-0.47
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,120,15,0.75,False,-0.473
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.0,True,-0.481
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,0.75,True,-0.483
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,0.75,True,-0.483
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,0.75,True,-0.483
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.0,True,-0.485
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.5,True,-0.515
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.5,False,-0.515
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.5,False,-0.515
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,0.75,False,-0.517
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,0.75,False,-0.517
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.5,False,-0.522
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.5,True,-0.544
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,45,0.75,False,-0.547
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.0,False,-0.555
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,15,0.75,False,-0.56
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,120,30,0.75,False,-0.56
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,2.0,False,-0.568
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.5,False,-0.575
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,2.0,True,-0.581
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.0,False,-0.582
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.0,True,-0.592
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.5,False,-0.594
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.5,False,-0.597
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.0,False,-0.609
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,0.75,True,-0.611
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.0,True,-0.612
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.5,False,-0.623
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.5,False,-0.623
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.5,True,-0.624
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.5,True,-0.624
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,0.75,True,-0.631
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,2.0,False,-0.639
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.5,True,-0.64
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,2.0,True,-0.644
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,0.75,False,-0.648
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.5,False,-0.659
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,0.75,False,-0.668
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.5,True,-0.674
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.5,True,-0.674
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.5,True,-0.676
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,0.75,False,-0.697
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,0.75,True,-0.706
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.5,False,-0.711
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.5,False,-0.711
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,0.75,False,-0.714
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,2.0,True,-0.719
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,2.0,False,-0.719
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,2.0,False,-0.719
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,2.0,True,-0.719
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.0,True,-0.723
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.0,False,-0.726
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.5,True,-0.733
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,0.75,True,-0.74
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,2.0,False,-0.744
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,2.0,False,-0.744
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,2.0,True,-0.747
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,2.0,True,-0.747
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,0.75,False,-0.751
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,0.75,False,-0.78
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.5,True,-0.787
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,2.0,True,-0.794
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.5,False,-0.795
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,0.75,True,-0.799
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.5,True,-0.801
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.5,False,-0.806
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,2.0,False,-0.814
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,2.0,True,-0.819
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,0.75,False,-0.822
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.5,False,-0.824
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,2.0,False,-0.826
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,2.0,True,-0.826
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,2.0,True,-0.84
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,2.0,False,-0.841
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,2.0,False,-0.842
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,45,2.0,False,-0.862
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,0.75,True,-0.873
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,2.0,False,-0.874
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,2.0,False,-0.874
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,2.0,True,-0.876
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,2.0,False,-0.886
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.0,True,-0.888
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.0,True,-0.888
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.0,False,-0.892
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.0,False,-0.892
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,2.0,True,-0.896
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,2.0,True,-0.896
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.0,False,-0.914
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,2.0,True,-0.917
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.0,False,-0.921
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,45,2.0,True,-0.931
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,15,2.0,False,-0.935
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,2.0,False,-0.935
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,15,0.75,True,-0.95
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.0,True,-0.958
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,90,30,2.0,True,-0.963
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,2.0,True,-0.984
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,2.0,False,-0.984
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,2.0,True,-0.984
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,2.0,False,-0.984
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,90,30,0.75,False,-1.037
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,2.0,False,-1.055
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,2.0,False,-1.055
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,2.0,False,-1.055
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.5,False,-1.055
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.5,False,-1.055
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.5,False,-1.055
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.0,True,-1.062
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.5,True,-1.074
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.5,True,-1.074
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,2.0,True,-1.074
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,2.0,True,-1.074
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,2.0,True,-1.074
+['TSLA'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.5,True,-1.074
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.0,False,-1.086
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.0,False,-1.086
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.5,True,-1.126
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,1.5,False,-1.148
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.5,False,-1.148
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.5,True,-1.204
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.5,True,-1.204
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.5,True,-1.204
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,1.5,False,-1.212
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,2.0,True,-1.219
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.5,True,-1.219
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,2.0,True,-1.219
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.5,True,-1.219
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.5,True,-1.219
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,2.0,True,-1.219
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,2.0,False,-1.239
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.5,False,-1.239
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,2.0,False,-1.239
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,2.0,False,-1.239
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.5,False,-1.239
+['TSLA'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.5,False,-1.239
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,2.0,True,-1.246
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,2.0,False,-1.27
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,0.75,True,-1.306
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,0.75,False,-1.314
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,2.0,True,-1.328
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,2.0,False,-1.339
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,2.0,True,-1.358
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,2.0,True,-1.358
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,0.75,True,-1.366
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,45,2.0,False,-1.39
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,2.0,False,-1.39
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.0,False,-1.397
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.0,False,-1.397
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.0,False,-1.397
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.0,True,-1.403
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.0,True,-1.403
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.0,True,-1.403
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,0.75,False,-1.435
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,2.0,True,-1.441
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,0.75,True,-1.441
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,2.0,True,-1.441
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,2.0,False,-1.454
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,2.0,False,-1.454
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,0.75,True,-1.47
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,1.5,True,-1.493
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.5,True,-1.493
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.5,False,-1.504
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.0,False,-1.526
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.0,False,-1.526
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.0,False,-1.526
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.0,True,-1.537
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.0,True,-1.537
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.0,True,-1.537
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,0.75,False,-1.544
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.0,False,-1.554
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.5,False,-1.58
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,30,1.5,False,-1.58
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,0.75,True,-1.653
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,30,0.75,False,-1.655
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,1.0,True,-1.656
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.0,True,-1.695
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,45,0.75,False,-1.698
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,1.0,False,-1.732
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,0.75,False,-1.735
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,0.75,False,-1.735
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,0.75,True,-1.742
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,0.75,True,-1.742
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,0.75,False,-1.914
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,0.75,False,-1.98
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,0.75,False,-1.98
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.0,True,-1.982
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.0,True,-1.982
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.0,True,-1.982
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.0,False,-1.985
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.0,False,-1.985
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.0,False,-1.985
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,0.75,True,-2.001
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,90,15,0.75,True,-2.024
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,0.75,True,-2.052
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,90,15,0.75,False,-2.065
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.0,False,-2.094
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.0,False,-2.094
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.0,False,-2.094
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.0,True,-2.141
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.0,True,-2.141
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.0,True,-2.141
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,2.0,False,-2.206
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.5,False,-2.206
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,2.0,False,-2.206
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.5,False,-2.206
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.5,False,-2.206
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,2.0,False,-2.206
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,2.0,True,-2.213
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,2.0,True,-2.213
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.5,True,-2.213
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.5,True,-2.213
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.5,True,-2.213
+"['META', 'TSLA']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,2.0,True,-2.213
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.5,False,-2.313
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,2.0,False,-2.313
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.5,False,-2.313
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,2.0,False,-2.313
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,2.0,False,-2.313
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.5,False,-2.313
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.5,True,-2.315
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,2.0,True,-2.315
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,2.0,True,-2.315
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.5,True,-2.315
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.5,True,-2.315
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,2.0,True,-2.315
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,0.75,False,-2.428
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,0.75,False,-2.428
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,0.75,True,-2.46
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,0.75,True,-2.46
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,0.75,True,-2.46
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,0.75,False,-2.472
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,0.75,True,-2.496
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,0.75,True,-2.496
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,2.0,False,-2.51
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.5,False,-2.51
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,2.0,False,-2.51
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.5,False,-2.51
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.5,False,-2.51
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,2.0,False,-2.51
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,2.0,True,-2.556
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,2.0,True,-2.556
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.5,True,-2.556
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.5,True,-2.556
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.5,True,-2.556
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,30,2.0,True,-2.556
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,0.75,False,-2.609
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.5,True,-2.616
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.5,True,-2.616
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,2.0,True,-2.616
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,2.0,True,-2.616
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.5,True,-2.616
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,2.0,True,-2.616
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.5,False,-2.619
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.5,False,-2.619
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,2.0,False,-2.619
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,2.0,False,-2.619
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,2.0,False,-2.619
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.5,False,-2.619
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,15,0.75,False,-2.75
+"['AAPL', 'TSLA', 'META']",/finbert_fmax_pred_returns_rfr_test.csv,150,15,0.75,False,-2.845
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,0.75,True,-2.995
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,0.75,True,-2.995
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,0.75,True,-3.0
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,0.75,True,-3.0
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,0.75,False,-3.007
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,0.75,False,-3.007
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.0,False,-3.035
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,0.75,False,-3.122
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,0.75,False,-3.122
+"['AAPL', 'TSLA', 'META']",/finbert_fmean_pred_returns_rfr_test.csv,150,45,0.75,True,-3.126
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,0.75,True,-3.134
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,0.75,False,-3.219
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,0.75,False,-3.219
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,0.75,False,-3.219
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,0.75,True,-3.222
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,0.75,True,-3.222
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,0.75,True,-3.222
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.0,True,-3.226
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.0,True,-3.226
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.5,True,-3.226
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.5,True,-3.226
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.0,True,-3.226
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,2.0,True,-3.226
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.5,True,-3.226
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,2.0,True,-3.226
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,2.0,True,-3.226
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.0,False,-3.234
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,2.0,False,-3.234
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.5,False,-3.234
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,2.0,False,-3.234
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.0,False,-3.234
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.5,False,-3.234
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,2.0,False,-3.234
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.5,False,-3.234
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.0,False,-3.234
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.0,False,-3.24
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,2.0,False,-3.24
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.5,False,-3.24
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,2.0,False,-3.24
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.0,False,-3.24
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,2.0,False,-3.24
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.5,False,-3.24
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.0,False,-3.24
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.5,False,-3.24
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.0,True,-3.247
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.5,True,-3.247
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,2.0,True,-3.247
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.0,True,-3.247
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.5,True,-3.247
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.5,True,-3.247
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.0,True,-3.247
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,2.0,True,-3.247
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,2.0,True,-3.247
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.0,True,-3.258
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.5,True,-3.258
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,2.0,True,-3.258
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.0,True,-3.258
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,2.0,True,-3.258
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,2.0,True,-3.258
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.5,True,-3.258
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.0,True,-3.258
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.5,True,-3.258
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.0,False,-3.295
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.5,False,-3.295
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,1.5,False,-3.295
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,1.0,False,-3.295
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,2.0,False,-3.295
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,2.0,False,-3.295
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,1.5,False,-3.295
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,2.0,False,-3.295
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.5,True,-3.364
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,2.0,True,-3.364
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.5,True,-3.364
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.0,True,-3.364
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.0,True,-3.364
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,2.0,True,-3.364
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,2.0,True,-3.364
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.5,True,-3.364
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.0,True,-3.364
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.5,False,-3.366
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.5,False,-3.366
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,2.0,False,-3.366
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,30,1.0,False,-3.366
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,2.0,False,-3.366
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.0,False,-3.366
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,1.0,False,-3.366
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,1.5,False,-3.366
+['META'],/finbert_fmean_pred_returns_rfr_test.csv,150,45,2.0,False,-3.366
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,0.75,False,-3.37
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,30,0.75,True,-3.399
+"['META', 'TSLA']",/finbert_fmax_pred_returns_rfr_test.csv,150,45,0.75,True,-3.399
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,0.75,True,-3.671
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,0.75,True,-3.68
+['AAPL'],/finbert_fmean_pred_returns_rfr_test.csv,150,15,0.75,False,-3.704
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,15,0.75,False,-3.759
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,0.75,False,-3.759
+['AAPL'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,0.75,False,-3.992
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,0.75,False,-6.33
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,45,0.75,True,-6.342
+['META'],/finbert_fmax_pred_returns_rfr_test.csv,150,30,0.75,True,-6.342
